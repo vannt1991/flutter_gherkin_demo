@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flutter_gherkin_demo",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_gherkin_demo (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutter_gherkin_demo (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Integration test Dev",
+            "program": "test_driver/integration_test_driver.dart",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--target=integration_test/gherkin_suite_test.dart",
+            ],
+        },
+    ]
+}
